@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+venv/
+vendor/
+shutterstock/
+.venv/
+
+# Build outputs
+dist/
+build/
+*.exe
+*.dll
+
+# Environment variables and secrets
+.env
+.env.local
+*.pem
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+*.tmp
+*.temp
+
+# Exception: ignore all logs EXCEPT important.log
+!important.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.swp
